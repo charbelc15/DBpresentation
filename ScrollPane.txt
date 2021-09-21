@@ -1,0 +1,6 @@
+ScrollPane scrollPane = new ScrollPane();
+
+String imagePath = "images/aerial-beverage-caffeine-972533.jpg";
+ImageView imageView = new ImageView(new Image(new FileInputStream(imagePath)));
+
+scrollPane.setContent(imageView);
